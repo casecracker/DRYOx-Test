@@ -71,7 +71,6 @@
 }
 
 /* Spacing */
-.settings,
 .logo,
 .mtm {
     margin-top: 7px !important
@@ -82,12 +81,9 @@
     margin-left: 41px !important
 }
 
-.settings,
 .mlr {
     margin-right: 21px !important
 }
-
-.settings,
 .pts {
     padding-top: 5px
 }
@@ -129,11 +125,7 @@ ol>li,ul>li {
     position: relative;
 }
 
-ul.DropDown li a:hover {
-    color: #eee;
-}
-
-.dropOut .triangle {
+.triangle {
     width: 0;
     height: 0;
     position: absolute;
@@ -173,12 +165,12 @@ ul.DropDown li a:hover {
     -o-transition: all .1s ease-out;
     transition: all .1s ease-out;
 }
-.dropOut ul.dropDown {
+.dropOut .dropDown {
     float: left;
     padding: 10px 5px;
 }
 
-.dropOut ul.dropDown li {
+.dropList {
     text-align: left;
     float: left;
     width: 155px;
@@ -195,11 +187,10 @@ ul.DropDown li a:hover {
     transition: background .1s ease-out;
 }
 
-.dropOut ul.dropDown li:not(:first-child):hover {
+.dropDown .dropList:not(:first-child):hover {
     background: #f6f6f6;
     width: 155px;
 }
 
-.navDropDown li:hover .dropdownContain { top: 18px; }
-.navDropDown li:hover .underline { border-bottom-color: #777; }
-.navDropDown li:hover .dropOut { opacity: 1; margin-top: 8px; }
+.drop:hover .dropdownContain { top: 18px; }
+.drop:hover .dropOut { opacity: 1; margin-top: 8px; }
