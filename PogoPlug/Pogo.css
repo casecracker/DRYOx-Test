@@ -130,10 +130,6 @@ footer {
     top: 136px;
     width: 95%
 }
-.searchBox {
-    float:right;
-    width:200px;
-}
 .topBar {
     margin-left:20px;
     height:30px;
@@ -152,7 +148,9 @@ footer {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     margin-top: 6px;
+    float:right;
 }
+
 /* Bubble */
 
 ol,ul {
@@ -239,3 +237,26 @@ ol>li,ul>li {
 
 .drop:hover .dropdownContain { top: 18px; }
 .drop:hover .dropOut {opacity: 1; margin-top: 8px; }
+
+.colButton{
+    height:21px;
+    width:21px;
+    background-image:url('http://pogoplug.com/images_5_0/sidebar-collapser.png?abspos&mirror');
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin-left:30px;
+}
+.search {
+    border-radius: 8px;
+    background-image: url('http://www.hikariusa.com/wp-content/uploads/search_icon.gif');
+    background-position: 95% 0px;
+    height:15px;
+    background-repeat: no-repeat;
+    float: right;
+}
+.navBox {
+    position: relative;
+    top: 136px;
+    left: 20px;
+    display: block;
+}
