@@ -238,36 +238,4 @@ ol>li,ul>li {
 }
 
 .drop:hover .dropdownContain { top: 18px; }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .drop:hover .dropOut {opacity: 1; margin-top: 8px; }
-=======
-=======
->>>>>>> FETCH_HEAD
-.drop:hover .dropOut {opacity: 1; margin-top: 8px; }
-
-.colButton{
-    height:21px;
-    width:21px;
-    background-image:url('http://pogoplug.com/images_5_0/sidebar-collapser.png?abspos&mirror');
-    background-repeat: no-repeat;
-    float:left;
-}
-.search {
-    border-radius: 8px;
-    background-image: url('http://www.hikariusa.com/wp-content/uploads/search_icon.gif');
-    background-position: 95% 0px;
-    height:15px;
-    background-repeat: no-repeat;
-    float: right;
-}
-
-.mediaList {
-    margin-top:20px;
-    border-top:solid 1px lightgrey;
-    float:right;
-}
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
