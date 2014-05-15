@@ -239,8 +239,11 @@ ol>li,ul>li {
 
 .drop:hover .dropdownContain { top: 18px; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .drop:hover .dropOut {opacity: 1; margin-top: 8px; }
 =======
+=======
+>>>>>>> FETCH_HEAD
 .drop:hover .dropOut {opacity: 1; margin-top: 8px; }
 
 .colButton{
@@ -264,4 +267,7 @@ ol>li,ul>li {
     border-top:solid 1px lightgrey;
     float:right;
 }
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
