@@ -176,22 +176,32 @@ ol>li,ul>li {
     border-bottom: 8px solid white;
 }
 
+#WHITEBACKGROUND,
+.dropOut,
+
+.whiteBackground {
+    background:#ffffff;
+}
+
 .dropOut .triangle {
     top: -8px;
     left: 50%;
     margin-left: -8px;
 }
+
+
 .dropdownContain {
     position: absolute;
     width:200px;
     z-index: 2;
     left: 50%;
-    margin-left: -100px; /* half of width */
+    margin-left: -100px;
     top: -400px;
 }
+
+
 .dropOut {
     width: 200px;
-    background: #ffffff;
     float: left;
     position: relative;
     margin-top: 0px;
